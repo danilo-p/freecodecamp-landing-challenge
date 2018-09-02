@@ -139,23 +139,28 @@
                 <div class="container">
                     <h2 class="landing-section__title">Subscribe to our newsletter</h2>
                     <p>Know when we find rare gems! You will receive an e-mail with news about our minings, and can buy first before it's over!</p>
-                    <form id="form" action="https://www.freecodecamp.org/email-submit" method="POST">
+                    <form
+                        id="form"
+                        action="https://www.freecodecamp.org/email-submit"
+                        method="POST"
+                        class="newsletter-form"
+                    >
                         <div class="row">
-                            <div class="col">
+                            <div class="col-md-6">
                                 <input
                                     type="email"
                                     name="email"
                                     placeholder="example@email.com"
-                                    class="form-control form-control-lg"
+                                    class="form-control form-control-lg newsletter-form__input"
                                     id="email"
                                     required
                                 />
                             </div>
-                            <div class="col">
+                            <div class="col-md-6">
                                 <input
                                     id="submit"
                                     type="submit"
-                                    class="btn btn-lg btn-outline-light btn-full"
+                                    class="btn btn-lg btn-outline-light newsletter-form__button"
                                     value="Subscribe"
                                 />
                             </div>
@@ -168,6 +173,7 @@
                     <h2 class="landing-section__title">The Miners Store</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis fugiat ipsum, vel blanditiis mollitia quis sapiente ea. Placeat, itaque temporibus accusamus aperiam pariatur error. Aliquid adipisci explicabo repudiandae temporibus maxime.</p>
                     <iframe
+                        class="landing-section__video"
                         id="video"
                         width="560"
                         height="315"
