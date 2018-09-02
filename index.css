@@ -1,3 +1,11 @@
+body {
+    font-weight: 300;
+}
+
+.btn-full {
+    width: 100%;
+}
+
 .landing-header {}
 
 .landing-content {
@@ -5,7 +13,17 @@
     padding: 80px 0px;
 }
 
-.landing-content__title {
+.landing-section {
+    padding: 40px 0px;
+}
+
+.landing-section--call-to-action {
+    background-color: #cd6133;
+    color: #fff;
+    text-align: center;
+}
+
+.landing-section__title {
     text-align: center;
     margin-bottom: 30px;
 }

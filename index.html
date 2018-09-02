@@ -48,20 +48,20 @@
                             <li class="nav-item">
                                 <a
                                     class="nav-link"
-                                    href="#about-us"
-                                    title="Go to About Us section"
+                                    href="#newsletter"
+                                    title="Go to Newsletter section"
                                 >
-                                    About Us
+                                    Newsletter
                                 </a>
                             </li>
 
                             <li class="nav-item">
                                 <a
                                     class="nav-link"
-                                    href="#newsletter"
-                                    title="Go to Newsletter section"
+                                    href="#about-us"
+                                    title="Go to About Us section"
                                 >
-                                    Newsletter
+                                    About Us
                                 </a>
                             </li>
                         </ul>
@@ -74,9 +74,9 @@
             </nav>
         </header>
         <main class="landing-content">
-            <div class="container">
-                <section id="landing-content__products-section">
-                    <h1 class="landing-content__title">The Best Gems, by The Miners Store</h1>
+            <section class="landing-section">
+                <div class="container">
+                    <h1 class="landing-section__title">The Best Gems, by The Miners Store</h1>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="product">
@@ -89,10 +89,10 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <a
                                     href="#"
-                                    title="Select Gray Gem"
+                                    title="Buy Gray Gem"
                                     class="product__link btn btn-primary"
                                 >
-                                    Select
+                                    Buy Gem
                                 </a>
                             </div>
                         </div>
@@ -107,10 +107,10 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <a
                                     href="#"
-                                    title="Select Yellow Gem"
+                                    title="Buy Yellow Gem"
                                     class="product__link btn btn-primary"
                                 >
-                                    Select
+                                    Buy Gem
                                 </a>
                             </div>
                         </div>
@@ -125,16 +125,46 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <a
                                     href="#"
-                                    title="Select Pink Gem"
+                                    title="Buy Pink Gem"
                                     class="product__link btn btn-primary"
                                 >
-                                    Select
+                                    Buy Gem
                                 </a>
                             </div>
                         </div>
                     </div>
-                </section>
-                <!-- <section id="about-us">
+                </div>
+            </section>
+            <section id="newsletter" class="landing-section landing-section--call-to-action">
+                <div class="container">
+                    <h2 class="landing-section__title">Subscribe to our newsletter</h2>
+                    <p>Know when we find rare gems! You will receive an e-mail with news about our minings, and can buy first before it's over!</p>
+                    <form id="form" action="https://www.freecodecamp.org/email-submit" method="POST">
+                        <div class="row">
+                            <div class="col">
+                                <input
+                                    type="email"
+                                    name="email"
+                                    placeholder="example@email.com"
+                                    class="form-control form-control-lg"
+                                    id="email"
+                                    required
+                                />
+                            </div>
+                            <div class="col">
+                                <input
+                                    id="submit"
+                                    type="submit"
+                                    class="btn btn-lg btn-outline-light btn-full"
+                                    value="Subscribe"
+                                />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <div class="container">
+                <section id="about-us">
                     <h1>The Best Gems</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis fugiat ipsum, vel blanditiis mollitia quis sapiente ea. Placeat, itaque temporibus accusamus aperiam pariatur error. Aliquid adipisci explicabo repudiandae temporibus maxime.</p>
                     <iframe
@@ -147,32 +177,6 @@
                         allowfullscreen
                     ></iframe>
                 </section>
-                <section id="newsletter">
-                    <h2>Subscribe to our newsletter</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi magni provident velit dolore reprehenderit, at iusto doloremque quibusdam distinctio officia, quia dicta fugit qui odio ducimus autem! Reprehenderit, aliquam nemo.</p>
-                    <form id="form" action="https://www.freecodecamp.org/email-submit" method="POST">
-                        <div class="row">
-                            <div class="col">
-                                <input
-                                    type="email"
-                                    name="email"
-                                    placeholder="example@email.com"
-                                    class="form-control"
-                                    id="email"
-                                    required
-                                />
-                            </div>
-                            <div class="col">
-                                <input
-                                    id="submit"
-                                    type="submit"
-                                    class="btn btn-lg btn-outline-primary"
-                                    value="Subscribe"
-                                />
-                            </div>
-                        </div>
-                    </form>
-                </section> -->
             </div>
         </main>
         <footer></footer>
