@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="./index.css">
         <title>The Miners Store - Best Gems</title>
     </head>
     <body>
@@ -12,11 +13,14 @@
             id="header"
             class="landing-header"
         >
-            <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <nav
+                id="nav-bar"
+                class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+            >
                 <div class="container">
                     <a class="navbar-brand" href="http://www.freecodecamp.org/">
                         <img
-                            src="https://danilo-p.github.io/freecodecamp-landing-challenge/assets/logo.png"
+                            src="./assets/logo.png"
                             width="30"
                             height="30"
                             class="d-inline-block align-top"
@@ -69,9 +73,68 @@
                 </div>
             </nav>
         </header>
-        <main>
+        <main class="landing-content">
             <div class="container">
-                <section id="about-us">
+                <section id="landing-content__products-section">
+                    <h1 class="landing-content__title">The Best Gems, by The Miners Store</h1>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="product">
+                                <img
+                                    src="./assets/products/gray_gem.png"
+                                    alt="Gray Gem"
+                                    class="product__image"
+                                />
+                                <h2 class="product__name">Gray Gem</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a
+                                    href="#"
+                                    title="Select Gray Gem"
+                                    class="product__link btn btn-primary"
+                                >
+                                    Select
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product">
+                                <img
+                                    src="./assets/products/yellow_gem.png"
+                                    alt="Yellow Gem"
+                                    class="product__image"
+                                />
+                                <h2 class="product__name">Yellow Gem</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a
+                                    href="#"
+                                    title="Select Yellow Gem"
+                                    class="product__link btn btn-primary"
+                                >
+                                    Select
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product">
+                                <img
+                                    src="./assets/products/pink_gem.png"
+                                    alt="Pink Gem"
+                                    class="product__image"
+                                />
+                                <h2 class="product__name">Pink Gem</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a
+                                    href="#"
+                                    title="Select Pink Gem"
+                                    class="product__link btn btn-primary"
+                                >
+                                    Select
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- <section id="about-us">
                     <h1>The Best Gems</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis fugiat ipsum, vel blanditiis mollitia quis sapiente ea. Placeat, itaque temporibus accusamus aperiam pariatur error. Aliquid adipisci explicabo repudiandae temporibus maxime.</p>
                     <iframe
@@ -83,9 +146,6 @@
                         allow="autoplay; encrypted-media"
                         allowfullscreen
                     ></iframe>
-                </section>
-                <section id="products">
-
                 </section>
                 <section id="newsletter">
                     <h2>Subscribe to our newsletter</h2>
@@ -112,7 +172,7 @@
                             </div>
                         </div>
                     </form>
-                </section>
+                </section> -->
             </div>
         </main>
         <footer></footer>

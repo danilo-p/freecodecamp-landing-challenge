@@ -1,0 +1,32 @@
+.landing-header {}
+
+.landing-content {
+    margin-top: 56px; /* The navbar height */
+    padding: 80px 0px;
+}
+
+.landing-content__title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product {
+    padding: 30px 15px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product__image {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    margin: 0 auto;
+    height: 150px;
+}
+
+.product__name {
+    margin-top: 15px;
+}
+
+.product__link {}
