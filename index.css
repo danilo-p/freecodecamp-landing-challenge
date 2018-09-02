@@ -15,12 +15,12 @@ body {
 
 .landing-section {
     padding: 40px 0px;
+    text-align: center;
 }
 
 .landing-section--call-to-action {
     background-color: #cd6133;
     color: #fff;
-    text-align: center;
 }
 
 .landing-section__title {
@@ -48,3 +48,10 @@ body {
 }
 
 .product__link {}
+
+.landing-footer {
+    padding: 40px 0px;
+    background-color: #333;
+    color: #eee;
+    font-size: 14px;
+}
